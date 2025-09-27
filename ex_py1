@@ -1,0 +1,11 @@
+a = int(input())
+b = float(input())
+print(a + b)
+print(a - b)
+print(a * b)
+print(a / b)
+from math import pi
+r = 5
+s = pi * r**2
+s1 = round(s, 2)
+print(f"Площадь - {s1}")
